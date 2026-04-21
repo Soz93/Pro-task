@@ -1,0 +1,25 @@
+:root {
+  --main-blue: #1976D2;
+  --bg-light: #F5F5F7;
+  --text-dark: #2C3E50;
+}
+
+body {
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+}
+
+.btn-primary {
+  background-color: var(--main-blue);
+  border: none;
+}
+/* .sidebar {
+    min-width: 250px; 
+    max-width: 300px;
+} */
+
+.card {
+    border-radius: 15px; /* لجعل حواف البطاقة ناعمة مثل الصورة */
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* ظل خفيف جداً لإعطاء عمق */
+}
