@@ -23,3 +23,32 @@ body {
     border: none;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* ظل خفيف جداً لإعطاء عمق */
 }
+
+header {
+    transition: all 0.3s ease;
+}
+
+/* لون خفيف عند الضغط على بار البحث */
+header input:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.1);
+    background-color: #fff !important;
+    border: 1px solid #0d6efd !important;
+}
+
+.fa-bell:hover {
+    color: #0d6efd;
+    cursor: pointer;
+}
+.hover-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+
+.hover-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+.bg-primary-subtle {
+    background-color: #e7f1ff; /* أزرق فاتح جداً للتاج */
+}
